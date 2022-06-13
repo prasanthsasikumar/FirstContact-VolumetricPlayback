@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Depthkit/Examples/Scenes/Depthkit_Example.unity
-    guid: 52890ebc8fac3f445b65a618f3987535
+    path: Assets/Scenes/MainScene.unity
+    guid: eefdf3606bf6ffb4f802eee3b3ce15bb
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 84ee88b7808c5594bba984dc51174e78, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 3871cb0b7cd8cbc468f55a5e14e45839, type: 2}

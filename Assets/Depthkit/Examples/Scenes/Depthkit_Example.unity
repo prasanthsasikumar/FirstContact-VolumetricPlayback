@@ -302,7 +302,6 @@ GameObject:
   - component: {fileID: 1879726245}
   - component: {fileID: 1879726244}
   - component: {fileID: 1879726243}
-  - component: {fileID: 1879726246}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -390,29 +389,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &1879726246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1879726241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf98dd1206224111a38765365e98e207, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lockCursorWhenFocusLocked: 1
-  setCursorInvisibleWhenFocusLocked: 0
-  maxGazeCollisionDistance: 10
-  raycastLayerMasks:
-  - serializedVersion: 2
-    m_Bits: 4294967291
-  stabilizer:
-    storedStabilitySamples: 60
-  gazeTransform: {fileID: 0}
-  minHeadVelocityThreshold: 0.5
-  maxHeadVelocityThreshold: 2
 --- !u!1 &1944153802
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,6 +519,7 @@ GameObject:
   - component: {fileID: 2023970721}
   - component: {fileID: 2023970722}
   - component: {fileID: 2023970720}
+  - component: {fileID: 2023970723}
   m_Layer: 0
   m_Name: Tania
   m_TagString: Untagged
@@ -557,10 +534,10 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023970711}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b71d021de74e30b43bcdfffd9dd6914f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 633439efbd6665146bbea1c1a3da0037, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1004,3 +981,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!114 &2023970723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023970711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95260f83b7255a9468d1e691f6a22fc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ipaddress: esp8266.local/hongi
+  hapticWaittime: 73
+  audioWaitTime: 5.5
