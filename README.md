@@ -1,4 +1,4 @@
-# CounterRacism
+# FirstContact-VolumetricPlayback
 
 Volumetric playback to counteract racism -- the next iteration of [ComeToTable](https://github.com/prasanthsasikumar/ComeToTable) (SIGGRAPH ASIA 2019).
 
