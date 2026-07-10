@@ -23,8 +23,6 @@ This work builds on and contributes to the following publications:
 
 ![Concept Overview](media/firstContact_fig1.png)
 
-![Concept Diagram](media/firstContact_fig2.png)
-
 ## Archive Notice
 
 This repository is an archive of a Unity XR project developed during my PhD (2019-2024) at the Empathic Computing Lab, University of Auckland. Originally hosted on a private Gitea server, it is preserved here for reference, reproducibility, and future hardware-adapted recreation.
