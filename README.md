@@ -10,16 +10,6 @@ Built with Unity, Microsoft Mixed Reality Toolkit (MRTK), and Depthkit volumetri
 
 ![Haptic Hongi Demo](media/Haptic_Hongi.gif)
 
-## Video Capture & Playback Evolution
-
-This project is part of a series exploring video capture and playback technologies across my PhD research. See the evolution here:
-
-[![Video Capture Evolution](https://img.youtube.com/vi/Gq3fmMliaJI/0.jpg)](https://youtu.be/Gq3fmMliaJI)
-
-## Demo (2019)
-
-![2019 Demo](media/2019.gif)
-
 ## Publications
 
 This work builds on and contributes to the following publications:
