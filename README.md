@@ -21,9 +21,9 @@ This work builds on and contributes to the following publications:
 - **haptic HONGI: Reflections on Collaboration in the Transdisciplinary Creation of an AR Artwork** -- Gunn, M., Campbell, A., Billinghurst, M., Lawn, W., Sasikumar, P., et al. Creating Digitally, 2023.
 - **Haptic Hongi-Reiterated** -- Gunn, M., Sasikumar, P., Muthukumarana, S., Remana, T., Billinghurst, M. SIGGRAPH Asia 2023 XR. [[DOI]](https://doi.org/10.1145/3610549.3614609)
 
-![Concept Overview](media/concept_overview.png)
+![Concept Overview](media/firstContact_fig1.png)
 
-![Concept Diagram](media/concept_diagram.png)
+![Concept Diagram](media/firstContact_fig2.png)
 
 ## Archive Notice
 
